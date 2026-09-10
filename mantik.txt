@@ -1,0 +1,27 @@
+Question
+   ↓
+Local FAISS RAG
+   ↓
+Ollama/ llamafile
+   ↓
+is_related?
+   ├── false → stop
+   └── true
+         ↓
+      JSON variable
+         ↓
+      Ollama/ llamafile
+         ↓
+ Python kodu üret
+ SQL, Python kodunun içinde
+         ↓
+      AutoGen
+ Python kodunu execute et
+         ↓
+   başarılı → sonuç
+         ↓ hata
+ question + RAG + JSON + code + error
+         ↓
+ Ollama/ llamafile kodu düzelt
+         ↓
+ AutoGen tekrar execute
