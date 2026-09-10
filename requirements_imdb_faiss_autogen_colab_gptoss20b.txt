@@ -1,0 +1,10 @@
+llama-cpp-python>=0.3.15
+huggingface-hub
+llama-index
+llama-index-core
+llama-index-llms-llama-cpp
+llama-index-embeddings-huggingface
+faiss-cpu
+numpy
+autogen-core
+autogen-ext
